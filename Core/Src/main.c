@@ -87,7 +87,7 @@ void* print_task(UINT32 arg)
 {
 	for(;;)
 	{
-		HAL_UART_Transmit(&huart1, (uint8_t *)"helloworld\r\n", 12, 100);
+		PRINTK("Hello LiteOS !\r\n");
 		LOS_TaskDelay(2000);
 	}
 }
@@ -136,11 +136,9 @@ int main(void)
 	
 	LOS_Start();
 	
-    while (1)
-    {
-//        HAL_GPIO_TogglePin(LED1_GPIO_Port, LED1_Pin);
-//        HAL_Delay(1000);
-    }
+    for(;;)
+	{
+	}
 }
 
 /* USER CODE END 0 */

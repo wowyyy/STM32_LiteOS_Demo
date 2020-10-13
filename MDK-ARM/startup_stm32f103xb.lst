@@ -463,11 +463,11 @@ ARM Macro Assembler    Page 8
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
 ork --depend=stm32_liteos_demo\startup_stm32f103xb.d -ostm32_liteos_demo\startu
-p_stm32f103xb.o -ID:\program\LiteOS\STM32_LiteOS_Demo\MDK-ARM\RTE -IE:\install\
-Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include -IE:\install\Keil_v5\ARM\PACK\Ke
-il\STM32F1xx_DFP\2.2.0\Device\Include --predefine="__MICROLIB SETA 1" --predefi
-ne="__UVISION_VERSION SETA 521" --predefine="_RTE_ SETA 1" --predefine="STM32F1
-0X_MD SETA 1" --list=startup_stm32f103xb.lst startup_stm32f103xb.s
+p_stm32f103xb.o -ID:\program\STM32_LiteOS_Demo\MDK-ARM\RTE -IE:\install\Keil_v5
+\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include -IE:\install\Keil_v5\ARM\PACK\Keil\STM3
+2F1xx_DFP\2.2.0\Device\Include --predefine="__MICROLIB SETA 1" --predefine="__U
+VISION_VERSION SETA 521" --predefine="_RTE_ SETA 1" --predefine="STM32F10X_MD S
+ETA 1" --list=startup_stm32f103xb.lst startup_stm32f103xb.s
 
 
 
