@@ -1,0 +1,2 @@
+# STM32_LiteOS_Demo
+基于STM32使用HAL库移植的华为LitsOS示例工程
